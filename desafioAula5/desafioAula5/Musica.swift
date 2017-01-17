@@ -20,13 +20,11 @@ class Musica{
 class MusicaDAO{
     static func getList() -> [Musica]{
         return [
-            Musica("The girl in yellow dress","David Gilmour","Rattle That Lock"),
-            Musica("Welcome to the machine","Pink Floyd","Wish you were here"),
-            Musica("Little birdie","Wynton Marsalis","Joe cool's blues"),
-            Musica("The girl in yellow dress","David Gilmour","Rattle That Lock"),
-            Musica("The girl in yellow dress","David Gilmour","Rattle That Lock"),
-            
-        
+            Musica(nome: "The girl in yellow dress", artista: "David Gilmour", album: "Rattle That Lock"),
+            Musica(nome: "Welcome to the machine", artista: "Pink Floyd", album: "Wish you were here"),
+            Musica(nome: "Little birdie", artista: "Wynton Marsalis", album: "Joe cool's blues"),
+            Musica(nome: "The girl in yellow dress", artista: "David Gilmour", album: "Rattle That Lock"),
+            Musica(nome: "Cão guia", artista: "Móveis Coloniais de Acaju", album: "Complete"),
         ]
     }
 }

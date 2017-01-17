@@ -1,0 +1,8 @@
+platform :ios, '10.2'
+use_frameworks!
+
+target 'WilDices' do
+    pod 'FacebookCore'
+	pod 'FacebookLogin'
+	pod 'FacebookShare'
+end

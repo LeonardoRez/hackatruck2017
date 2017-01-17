@@ -12,6 +12,9 @@
 		3F3BCE041E23C0BD009E057B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BCE031E23C0BD009E057B /* Assets.xcassets */; };
 		3F3BCE071E23C0BD009E057B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BCE051E23C0BD009E057B /* LaunchScreen.storyboard */; };
 		3F3BCE151E23CC91009E057B /* Musica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BCE141E23CC91009E057B /* Musica.swift */; };
+		3F73B6E31E24EDB800277E26 /* MusicaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73B6E21E24EDB800277E26 /* MusicaTableViewCell.swift */; };
+		3F73B6E51E24F42400277E26 /* MusicasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73B6E41E24F42400277E26 /* MusicasTableViewController.swift */; };
+		3F73B6E71E2513E200277E26 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73B6E61E2513E200277E26 /* DetalhesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3F3BCE061E23C0BD009E057B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3BCE081E23C0BD009E057B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3BCE141E23CC91009E057B /* Musica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Musica.swift; sourceTree = "<group>"; };
+		3F73B6E21E24EDB800277E26 /* MusicaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicaTableViewCell.swift; sourceTree = "<group>"; };
+		3F73B6E41E24F42400277E26 /* MusicasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicasTableViewController.swift; sourceTree = "<group>"; };
+		3F73B6E61E2513E200277E26 /* DetalhesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +60,11 @@
 		3F3BCDFB1E23C0BD009E057B /* desafioAula5 */ = {
 			isa = PBXGroup;
 			children = (
+				3F3BCE101E23CA26009E057B /* Model */,
+				3F3BCE111E23CA2E009E057B /* View */,
+				3F3BCE121E23CA34009E057B /* Controller */,
 				3F3BCE031E23C0BD009E057B /* Assets.xcassets */,
 				3F3BCE131E23CBA1009E057B /* Supporting Files */,
-				3F3BCE121E23CA34009E057B /* Controller */,
-				3F3BCE111E23CA2E009E057B /* View */,
-				3F3BCE101E23CA26009E057B /* Model */,
 			);
 			path = desafioAula5;
 			sourceTree = "<group>";
@@ -67,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				3F3BCE141E23CC91009E057B /* Musica.swift */,
+				3F73B6E21E24EDB800277E26 /* MusicaTableViewCell.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -82,6 +89,8 @@
 		3F3BCE121E23CA34009E057B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3F73B6E41E24F42400277E26 /* MusicasTableViewController.swift */,
+				3F73B6E61E2513E200277E26 /* DetalhesViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -168,7 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F73B6E31E24EDB800277E26 /* MusicaTableViewCell.swift in Sources */,
 				3F3BCDFD1E23C0BD009E057B /* AppDelegate.swift in Sources */,
+				3F73B6E51E24F42400277E26 /* MusicasTableViewController.swift in Sources */,
+				3F73B6E71E2513E200277E26 /* DetalhesViewController.swift in Sources */,
 				3F3BCE151E23CC91009E057B /* Musica.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +343,7 @@
 				3F3BCE0D1E23C0BD009E057B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
